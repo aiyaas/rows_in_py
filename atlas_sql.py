@@ -14,4 +14,3 @@ def get_db_sql() -> object:
     for i in Cursor.fetchall():
         dumps_: object = dumps(i, indent=2)
         print(dumps_) # Display of formatted data
-
