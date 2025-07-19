@@ -18,4 +18,3 @@ def format_file_size(__file__: str) -> str:
         size /= 1024
         i += 1
     return f"{size:.2f} {units[i]}"
-
