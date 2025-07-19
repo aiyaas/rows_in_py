@@ -21,5 +21,6 @@ _: list[int] = [
     if num is not None
 ]
 
-print(_)
-
+if __name__ == "__main__":
+    from json import dumps
+    print(dumps(_, indent=4))
